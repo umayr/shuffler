@@ -1,14 +1,16 @@
 {
-  "name": "random",
+  "name": "shuffler",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
+    "@rebass/forms": "^4.0.6",
+    "@theme-ui/presets": "^0.3.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-router-dom": "^5.2.0",
+    "rebass": "^4.0.7",
+    "shortid": "^2.2.15",
+    "theme-ui": "^0.3.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,5 +32,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-test-renderer": "^16.13.1",
+    "react-scripts": "3.4.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/react-hooks": "^3.2.1",
+    "@testing-library/user-event": "^7.1.2"
   }
 }
