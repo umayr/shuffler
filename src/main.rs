@@ -1,11 +1,9 @@
 extern crate getopts;
 
-mod lib;
-
 use std::{env, process};
 use getopts::Options;
 
-use lib::{shuffle, pick, group};
+use shuffler::{shuffle, pick, group};
 
 fn main() {
     let args: Vec<String> = env::args().collect();
@@ -21,7 +19,12 @@ fn main() {
 
     let matches = match opts.parse(&args[1..]) {
         Ok(m) => m,
-        Err(f) => panic!(f.to_string()),
+        Err(f) => {
+            println!("{}", f.to_string());
+            println!("{}", opts.usage(usage));
+
+            process::exit(1);
+        },
     };
 
 
@@ -36,7 +39,8 @@ fn main() {
         let v = matches.opt_str("group").unwrap();
 
         Some(v.parse::<usize>().unwrap_or_else(|_| {
-            opts.usage(usage);
+            println!("Invalid value for 'group': {}", v);
+            println!("{}", opts.usage(usage));
 
             process::exit(1);
         }))
@@ -48,7 +52,8 @@ fn main() {
         let v = matches.opt_str("pick").unwrap();
 
         Some(v.parse::<usize>().unwrap_or_else(|_| {
-            opts.usage(usage);
+            println!("Invalid value for 'pick': {}", v);
+            println!("{}", opts.usage(usage));
 
             process::exit(1);
         }))
