@@ -1,0 +1,84 @@
+on:
+  push:
+    branches:
+      - master
+
+name: Deploy
+
+jobs:
+  test-app:
+    name: Test App
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14'
+
+      - name: Install Deps
+        working-directory: ./app
+        run: npm install
+
+      - name: Test
+        working-directory: ./app
+        run: npm test
+
+  test-lib:
+    name: Test Library
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup Rust
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+
+      - name: Test
+        uses: actions-rs/cargo@v1
+        with:
+          command: test
+
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-18.04
+    needs:
+      - test-app
+      - test-lib
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup Rust
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+
+      - name: Install wasm-pack
+        uses: actions-rs/cargo@v1
+        with:
+          command: install
+          args: wasm-pack
+
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14'
+
+      - name: Install Deps
+        working-directory: ./app
+        run: npm install
+
+      - name: Build
+        working-directory: ./app
+        run: npm run build
+
+      - name: Publish
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./app/build
