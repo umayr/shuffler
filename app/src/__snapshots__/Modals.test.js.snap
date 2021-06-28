@@ -1,0 +1,604 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Group modal 1`] = `
+<body
+  style="overflow: hidden;"
+>
+  <div />
+  <div
+    id="layerClone"
+  >
+    <div
+      aria-hidden="false"
+    >
+      <div
+        class="StyledLayer-rmtehz-0 kMZhng"
+        tabindex="-1"
+      >
+        <div
+          class="StyledLayer__StyledOverlay-rmtehz-1 buTrmF"
+        />
+        <div
+          class="StyledLayer__StyledContainer-rmtehz-2 hPzbwk"
+          data-g-portal-id="0"
+          style="animation-direction: reverse;"
+        >
+          <a
+            aria-hidden="true"
+            class="LayerContainer__HiddenAnchor-sc-1srj14c-0 fxrbVi"
+            tabindex="-1"
+          />
+          <div
+            class="StyledBox-sc-13pk1d4-0 btaHDr"
+          >
+            <h3
+              class="StyledHeading-sc-1rdh4aw-0 jCxtww"
+            >
+              Shortcuts
+            </h3>
+            <div
+              class="StyledBox__StyledBoxGap-sc-13pk1d4-1 kVDkjZ"
+            />
+            <table
+              class="StyledTable-sc-1m3u5g-6 hwKsrk"
+            >
+              <thead
+                class="StyledTable__StyledTableHeader-sc-1m3u5g-4"
+              >
+                <tr
+                  class="StyledTable__StyledTableRow-sc-1m3u5g-2"
+                >
+                  <th
+                    class="StyledTable__StyledTableCell-sc-1m3u5g-0 HHgLC"
+                    scope="col"
+                  >
+                    Key
+                  </th>
+                  <th
+                    class="StyledTable__StyledTableCell-sc-1m3u5g-0 HHgLC"
+                    scope="col"
+                  >
+                    Action
+                  </th>
+                </tr>
+              </thead>
+              <tbody
+                class="StyledTable__StyledTableBody-sc-1m3u5g-3"
+              >
+                <tr
+                  class="StyledTable__StyledTableRow-sc-1m3u5g-2"
+                >
+                  <th
+                    class="StyledTable__StyledTableCell-sc-1m3u5g-0 hkXmPk"
+                    scope="row"
+                  >
+                    <pre
+                      style="margin: 0px;"
+                    >
+                      1
+                    </pre>
+                  </th>
+                  <td
+                    class="StyledTable__StyledTableCell-sc-1m3u5g-0 hkXmPk"
+                  >
+                    also known as one
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div
+              class="StyledBox__StyledBoxGap-sc-13pk1d4-1 kVDkjZ"
+            />
+            <button
+              class="StyledButton-sc-323bzc-0 kflPHx"
+              type="button"
+            >
+              <div
+                class="StyledBox-sc-13pk1d4-0 jncmfT"
+              >
+                <svg
+                  aria-label="Close"
+                  class="StyledIcon-ofa7kd-0 hVBrNB"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m3 3 18 18M3 21 21 3"
+                    fill="none"
+                    stroke="#000"
+                    stroke-width="2"
+                  />
+                </svg>
+                <div
+                  class="StyledBox__StyledBoxGap-sc-13pk1d4-1 kaiRIg"
+                />
+                Close
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div />
+  <div
+    id="layerClone"
+  >
+    <div
+      aria-hidden="false"
+    >
+      <div
+        class="StyledLayer-rmtehz-0 kMZhng"
+        tabindex="-1"
+      >
+        <div
+          class="StyledLayer__StyledOverlay-rmtehz-1 buTrmF"
+        />
+        <div
+          class="StyledLayer__StyledContainer-rmtehz-2 hPzbwk"
+          data-g-portal-id="0"
+          style="animation-direction: reverse;"
+        >
+          <a
+            aria-hidden="true"
+            class="LayerContainer__HiddenAnchor-sc-1srj14c-0 fxrbVi"
+            tabindex="-1"
+          />
+          <div
+            class="StyledBox-sc-13pk1d4-0 btaHDr"
+          >
+            <h3
+              class="StyledHeading-sc-1rdh4aw-0 jCxtww"
+            >
+              Pick
+               (
+              1
+              )
+            </h3>
+            <div
+              class="StyledBox__StyledBoxGap-sc-13pk1d4-1 kVDkjZ"
+            />
+            <input
+              class="StyledRangeInput-sc-15st9ck-0 keldXR"
+              max="0"
+              min="1"
+              type="range"
+              value="1"
+            />
+            <div
+              class="StyledBox__StyledBoxGap-sc-13pk1d4-1 kVDkjZ"
+            />
+            <button
+              class="StyledButton-sc-323bzc-0 kflPHx"
+              type="button"
+            >
+              <div
+                class="StyledBox-sc-13pk1d4-0 jncmfT"
+              >
+                <svg
+                  aria-label="Close"
+                  class="StyledIcon-ofa7kd-0 hVBrNB"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m3 3 18 18M3 21 21 3"
+                    fill="none"
+                    stroke="#000"
+                    stroke-width="2"
+                  />
+                </svg>
+                <div
+                  class="StyledBox__StyledBoxGap-sc-13pk1d4-1 kaiRIg"
+                />
+                Close
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div
+      class="StyledGrommet-sc-19lkkz7-0 cXIcsV"
+    />
+  </div>
+  <div>
+    <div
+      aria-hidden="false"
+    >
+      <div
+        class="StyledLayer-rmtehz-0 kMZhng"
+        tabindex="-1"
+      >
+        <div
+          class="StyledLayer__StyledOverlay-rmtehz-1 buTrmF"
+        />
+        <div
+          class="StyledLayer__StyledContainer-rmtehz-2 hPzbwk"
+          data-g-portal-id="0"
+        >
+          <a
+            aria-hidden="true"
+            class="LayerContainer__HiddenAnchor-sc-1srj14c-0 fxrbVi"
+            tabindex="-1"
+          />
+          <div
+            class="StyledBox-sc-13pk1d4-0 btaHDr"
+          >
+            <h3
+              class="StyledHeading-sc-1rdh4aw-0 jCxtww"
+            >
+              Group
+               (
+              1
+              )
+            </h3>
+            <div
+              class="StyledBox__StyledBoxGap-sc-13pk1d4-1 kVDkjZ"
+            />
+            <input
+              class="StyledRangeInput-sc-15st9ck-0 keldXR"
+              max="0"
+              min="1"
+              type="range"
+              value="1"
+            />
+            <div
+              class="StyledBox__StyledBoxGap-sc-13pk1d4-1 kVDkjZ"
+            />
+            <button
+              class="StyledButton-sc-323bzc-0 kflPHx"
+              type="button"
+            >
+              <div
+                class="StyledBox-sc-13pk1d4-0 jncmfT"
+              >
+                <svg
+                  aria-label="Close"
+                  class="StyledIcon-ofa7kd-0 hVBrNB"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m3 3 18 18M3 21 21 3"
+                    fill="none"
+                    stroke="#000"
+                    stroke-width="2"
+                  />
+                </svg>
+                <div
+                  class="StyledBox__StyledBoxGap-sc-13pk1d4-1 kaiRIg"
+                />
+                Close
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`renders Help modal 1`] = `
+<body
+  style="overflow: hidden;"
+>
+  <div>
+    <div
+      class="StyledGrommet-sc-19lkkz7-0 cXIcsV"
+    />
+  </div>
+  <div>
+    <div
+      aria-hidden="false"
+    >
+      <div
+        class="StyledLayer-rmtehz-0 kMZhng"
+        tabindex="-1"
+      >
+        <div
+          class="StyledLayer__StyledOverlay-rmtehz-1 buTrmF"
+        />
+        <div
+          class="StyledLayer__StyledContainer-rmtehz-2 hPzbwk"
+          data-g-portal-id="0"
+        >
+          <a
+            aria-hidden="true"
+            class="LayerContainer__HiddenAnchor-sc-1srj14c-0 fxrbVi"
+            tabindex="-1"
+          />
+          <div
+            class="StyledBox-sc-13pk1d4-0 btaHDr"
+          >
+            <h3
+              class="StyledHeading-sc-1rdh4aw-0 jCxtww"
+            >
+              Shortcuts
+            </h3>
+            <div
+              class="StyledBox__StyledBoxGap-sc-13pk1d4-1 kVDkjZ"
+            />
+            <table
+              class="StyledTable-sc-1m3u5g-6 hwKsrk"
+            >
+              <thead
+                class="StyledTable__StyledTableHeader-sc-1m3u5g-4"
+              >
+                <tr
+                  class="StyledTable__StyledTableRow-sc-1m3u5g-2"
+                >
+                  <th
+                    class="StyledTable__StyledTableCell-sc-1m3u5g-0 HHgLC"
+                    scope="col"
+                  >
+                    Key
+                  </th>
+                  <th
+                    class="StyledTable__StyledTableCell-sc-1m3u5g-0 HHgLC"
+                    scope="col"
+                  >
+                    Action
+                  </th>
+                </tr>
+              </thead>
+              <tbody
+                class="StyledTable__StyledTableBody-sc-1m3u5g-3"
+              >
+                <tr
+                  class="StyledTable__StyledTableRow-sc-1m3u5g-2"
+                >
+                  <th
+                    class="StyledTable__StyledTableCell-sc-1m3u5g-0 hkXmPk"
+                    scope="row"
+                  >
+                    <pre
+                      style="margin: 0px;"
+                    >
+                      1
+                    </pre>
+                  </th>
+                  <td
+                    class="StyledTable__StyledTableCell-sc-1m3u5g-0 hkXmPk"
+                  >
+                    also known as one
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div
+              class="StyledBox__StyledBoxGap-sc-13pk1d4-1 kVDkjZ"
+            />
+            <button
+              class="StyledButton-sc-323bzc-0 kflPHx"
+              type="button"
+            >
+              <div
+                class="StyledBox-sc-13pk1d4-0 jncmfT"
+              >
+                <svg
+                  aria-label="Close"
+                  class="StyledIcon-ofa7kd-0 hVBrNB"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m3 3 18 18M3 21 21 3"
+                    fill="none"
+                    stroke="#000"
+                    stroke-width="2"
+                  />
+                </svg>
+                <div
+                  class="StyledBox__StyledBoxGap-sc-13pk1d4-1 kaiRIg"
+                />
+                Close
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`renders Pick modal 1`] = `
+<body
+  style="overflow: hidden;"
+>
+  <div />
+  <div
+    id="layerClone"
+  >
+    <div
+      aria-hidden="false"
+    >
+      <div
+        class="StyledLayer-rmtehz-0 kMZhng"
+        tabindex="-1"
+      >
+        <div
+          class="StyledLayer__StyledOverlay-rmtehz-1 buTrmF"
+        />
+        <div
+          class="StyledLayer__StyledContainer-rmtehz-2 hPzbwk"
+          data-g-portal-id="0"
+          style="animation-direction: reverse;"
+        >
+          <a
+            aria-hidden="true"
+            class="LayerContainer__HiddenAnchor-sc-1srj14c-0 fxrbVi"
+            tabindex="-1"
+          />
+          <div
+            class="StyledBox-sc-13pk1d4-0 btaHDr"
+          >
+            <h3
+              class="StyledHeading-sc-1rdh4aw-0 jCxtww"
+            >
+              Shortcuts
+            </h3>
+            <div
+              class="StyledBox__StyledBoxGap-sc-13pk1d4-1 kVDkjZ"
+            />
+            <table
+              class="StyledTable-sc-1m3u5g-6 hwKsrk"
+            >
+              <thead
+                class="StyledTable__StyledTableHeader-sc-1m3u5g-4"
+              >
+                <tr
+                  class="StyledTable__StyledTableRow-sc-1m3u5g-2"
+                >
+                  <th
+                    class="StyledTable__StyledTableCell-sc-1m3u5g-0 HHgLC"
+                    scope="col"
+                  >
+                    Key
+                  </th>
+                  <th
+                    class="StyledTable__StyledTableCell-sc-1m3u5g-0 HHgLC"
+                    scope="col"
+                  >
+                    Action
+                  </th>
+                </tr>
+              </thead>
+              <tbody
+                class="StyledTable__StyledTableBody-sc-1m3u5g-3"
+              >
+                <tr
+                  class="StyledTable__StyledTableRow-sc-1m3u5g-2"
+                >
+                  <th
+                    class="StyledTable__StyledTableCell-sc-1m3u5g-0 hkXmPk"
+                    scope="row"
+                  >
+                    <pre
+                      style="margin: 0px;"
+                    >
+                      1
+                    </pre>
+                  </th>
+                  <td
+                    class="StyledTable__StyledTableCell-sc-1m3u5g-0 hkXmPk"
+                  >
+                    also known as one
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div
+              class="StyledBox__StyledBoxGap-sc-13pk1d4-1 kVDkjZ"
+            />
+            <button
+              class="StyledButton-sc-323bzc-0 kflPHx"
+              type="button"
+            >
+              <div
+                class="StyledBox-sc-13pk1d4-0 jncmfT"
+              >
+                <svg
+                  aria-label="Close"
+                  class="StyledIcon-ofa7kd-0 hVBrNB"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m3 3 18 18M3 21 21 3"
+                    fill="none"
+                    stroke="#000"
+                    stroke-width="2"
+                  />
+                </svg>
+                <div
+                  class="StyledBox__StyledBoxGap-sc-13pk1d4-1 kaiRIg"
+                />
+                Close
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div
+      class="StyledGrommet-sc-19lkkz7-0 cXIcsV"
+    />
+  </div>
+  <div>
+    <div
+      aria-hidden="false"
+    >
+      <div
+        class="StyledLayer-rmtehz-0 kMZhng"
+        tabindex="-1"
+      >
+        <div
+          class="StyledLayer__StyledOverlay-rmtehz-1 buTrmF"
+        />
+        <div
+          class="StyledLayer__StyledContainer-rmtehz-2 hPzbwk"
+          data-g-portal-id="0"
+        >
+          <a
+            aria-hidden="true"
+            class="LayerContainer__HiddenAnchor-sc-1srj14c-0 fxrbVi"
+            tabindex="-1"
+          />
+          <div
+            class="StyledBox-sc-13pk1d4-0 btaHDr"
+          >
+            <h3
+              class="StyledHeading-sc-1rdh4aw-0 jCxtww"
+            >
+              Pick
+               (
+              1
+              )
+            </h3>
+            <div
+              class="StyledBox__StyledBoxGap-sc-13pk1d4-1 kVDkjZ"
+            />
+            <input
+              class="StyledRangeInput-sc-15st9ck-0 keldXR"
+              max="0"
+              min="1"
+              type="range"
+              value="1"
+            />
+            <div
+              class="StyledBox__StyledBoxGap-sc-13pk1d4-1 kVDkjZ"
+            />
+            <button
+              class="StyledButton-sc-323bzc-0 kflPHx"
+              type="button"
+            >
+              <div
+                class="StyledBox-sc-13pk1d4-0 jncmfT"
+              >
+                <svg
+                  aria-label="Close"
+                  class="StyledIcon-ofa7kd-0 hVBrNB"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m3 3 18 18M3 21 21 3"
+                    fill="none"
+                    stroke="#000"
+                    stroke-width="2"
+                  />
+                </svg>
+                <div
+                  class="StyledBox__StyledBoxGap-sc-13pk1d4-1 kaiRIg"
+                />
+                Close
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
